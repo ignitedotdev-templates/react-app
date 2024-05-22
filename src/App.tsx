@@ -14,9 +14,13 @@ function App() {
           <h2 className="header">
             You’ve just ignited a new <span className="library">React</span> static site!
           </h2>
-          <span className="pathname">
+          <a
+            href={currentPath}
+            target='_blank'
+            className="pathname"
+          >
             {currentPath}
-          </span>
+          </a>
         </div>
         <p className="footer">
           Made in Nigeria with 💖
